@@ -1,0 +1,27 @@
+{
+  "name": "padlock",
+  "version": "0.1.0",
+  "description": "PadLock: construction project financing, management and compliance dashboard on Ethereum",
+  "license": "ISC",
+  "author": "Blox Consulting LLC",
+  "homepage": "https://github.com/blox-consulting/PadLock",
+  "repository": "github:blox-consulting/PadLock",
+  "bugs": "https://github.com/blox-consulting/PadLock/issues",
+  "scripts": {
+    "fmt": "prettier --write \"**/*.{js,ts,jsx,tsx,json,css,md}\"",
+    "fmt:test": "prettier --check \"**/*.{js,ts,jsx,tsx,json,css,md}\"",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.0",
+    "node-fmt": "^1.0.3"
+  }
+}

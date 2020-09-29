@@ -1,0 +1,26 @@
+{
+  "name": "padlock-blockchain",
+  "version": "0.1.0",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.0.1",
+    "@openzeppelin/test-helpers": "^0.5.6",
+    "@truffle/contract": "^4.2.11",
+    "@truffle/hdwallet-provider": "^1.0.35",
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "web3": "^1.2.9"
+  },
+  "resolutions": {
+    "eth-lib/keccakjs/sha3": "^1.2.3",
+    "web3/web3-eth/web3-eth-accounts/scrypt.js": "^0.3.0"
+  },
+  "devDependencies": {
+    "truffle": "^5.1.34"
+  }
+}

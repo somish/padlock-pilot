@@ -1,0 +1,17 @@
+version: 2.1
+orbs:
+  node: circleci/node@1.1.6
+jobs:
+  build-and-test:
+    executor:
+      name: node/default
+    steps:
+      - checkout
+      - add_ssh_keys:
+          fingerprints:
+              - "b0:88:a0:b3:cb:6b:2a:af:d5:e0:6b:5e:38:68:19:c0"
+      - run: ./ci.sh
+workflows:
+    build-and-test:
+      jobs:
+        - build-and-test

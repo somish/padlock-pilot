@@ -1,0 +1,23 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Testing
+coverage
+
+# Production
+build
+
+# IDE project files
+*.iml
+.idea
+.vscode
+
+# Logs
+logs
+*.log*
+
+# Misc
+.DS_STORE
+.env*
